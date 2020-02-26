@@ -1,9 +1,6 @@
 import PkgOne.PkgOneTestOne;
 
 public class TestTwo {
-	
-	
-
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -22,6 +19,10 @@ public class TestTwo {
 		PkgOneTestOne.add(4, 5);
 		System.out.println(PkgOneTestOne.s2);
 		PkgOneTestOne.s2 = "New value of this S2";
+		System.out.println(PkgOneTestOne.s2);
+	}
+	
+	public void tryone() {
 		System.out.println(PkgOneTestOne.s2);
 	}
 

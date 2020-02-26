@@ -2,6 +2,7 @@ package PkgOne;
 
 public class PkgOneTestOne {
 	
+	public static String s2 = "This is the base value of s2";
 
 	
 	public void pkonemethodone() {
@@ -20,7 +21,7 @@ public class PkgOneTestOne {
 		System.out.println(sub);
 	}
 	
-	public void add (int a, int b) {
+	public static void add (int a, int b) {
 		int add = a+b;
 		System.out.println(add);
 	}

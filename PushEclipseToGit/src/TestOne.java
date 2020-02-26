@@ -9,11 +9,7 @@ public class TestOne {
 		System.out.println("Hello");
 		System.out.println("New Line Code");
 		System.out.println("This has new lines");
-		PkgOneTestOne t1 = new PkgOneTestOne();
-		t1.pkonemethodone();
-		TestTwo w = new TestTwo();
-		w.sum(5, 6);
-	
+		System.out.println(PkgOneTestOne.s2);	
 
 	}
 	

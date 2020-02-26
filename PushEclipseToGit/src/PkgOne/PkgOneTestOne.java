@@ -19,5 +19,10 @@ public class PkgOneTestOne {
 		int sub = a-b;
 		System.out.println(sub);
 	}
+	
+	public void add (int a, int b) {
+		int add = a+b;
+		System.out.println(add);
+	}
 
 }

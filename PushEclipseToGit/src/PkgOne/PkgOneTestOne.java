@@ -14,5 +14,10 @@ public class PkgOneTestOne {
 		int multi = a*b;
 		System.out.println(multi);
 	}
+	
+	public void substract (int a, int b) {
+		int sub = a-b;
+		System.out.println(sub);
+	}
 
 }
